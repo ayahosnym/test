@@ -1,0 +1,30 @@
+.NewCarPricing-Section2 {
+  max-width: 1700px;
+}
+
+.NewCarPricing-Section2-Heading {
+  font-family: "Poppins", sans-serif;
+  padding-top: 63px;
+}
+
+.NewCarPricing-Section2-Heading__h3 {
+  font-weight: 500;
+  font-size: 35px;
+  color: #727272;
+}
+
+.NewCarPricing-Section2-Heading__h3--red {
+  color: #d53535;
+}
+
+@media (max-width: 1199.98px) {
+  .NewCarPricing-Section2-Heading__h3 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .NewCarPricing-Section2-Heading__h3 {
+    font-size: 25px;
+  }
+}

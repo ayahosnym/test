@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+.nav-container {
+  background-color: #1a1a1a;
+  color: white !important;
+  min-height: 130px;
+  padding: 0 110px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-container .collapse {
+  justify-content: flex-end;
+}
+.nav-container .collapse ul {
+  width: 75%;
+}
+.nav-container .nav-link {
+  font-size: 16px;
+  padding: 0 16px !important;
+  font-weight: 400;
+  color: white !important;
+  border-left: 1px solid white;
+}
+.nav-container .active .nav-link {
+  border: 0;
+}
+.user-container .username {
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.user-container .user-icon {
+  font-size: 17px;
+}
+.nav-container .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0) !important;
+}
+.navbar-toggler:focus {
+  outline: 0px;
+}
+.nav-container .navbar-toggler-icon {
+  color: white;
+}
+.nav-container .active-link {
+  color: gray !important;
+}
+@media screen and (max-width: 1200px) {
+  .nav-container .nav-link {
+    margin-bottom: 10px !important;
+  }
+  .nav-container .active .nav-link {
+    border-left: 1px solid white;
+  }
+  .navbar-brand img {
+    width: 125px;
+  }
+  .user-container .user-icon,
+  .user-container .username {
+    font-size: 15px;
+  }
+  .nav-container {
+    min-height: auto;
+  }
+  .nav-container .collapse ul {
+    width: auto;
+  }
+  .nav-container {
+    padding: 0 20px !important;
+  }
+}
